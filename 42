@@ -1,0 +1,107 @@
+## 1. 靜態方法-粉圓.仙草.牛奶
+
+
+#### 儲存結構
+``` python
+  |
+  |__<ntub>
+  |     |__ m01.py
+  |
+  |__ p01.py   
+```
+
+
+#### 程式名稱: m01.py (自行完成)
+``` python
+(1) 類別名稱: PearlMilkTea
+(2) 靜態方法名稱: price(addPearl, addGrass, addMilk)
+    [2-1] 傳入參數: 是否加珍珠(boolean), 是否加仙草(boolean), 是否加牛奶(boolean)
+    [2-2] 回傳值: 價格
+    [2-3] 說明: 
+          [1] 有個店家賣客製化珍珠奶茶, 客人可以:    
+          [2] 點一杯紅茶 (25元, 一定要點);
+          [3] 只加粉圓 (加15元), 只加仙草 (加10元), 同時加粉圓及仙草 (加20元);
+          [4] 加牛奶 (加12元).
+```
+
+#### 程式名稱: p01.py (自行完成)
+``` python
+   .
+   .
+   .
+   
+# 待處理銷售資料
+teas = [(True, True, True), (True, True, False), (True, False, True), (True, False, False), (False, True, True), (False, True, False), (False, False, True), (False, False, False)]
+
+   .
+   .
+   .   
+```
+
+#### 輸出
+``` python
+編號:1, 價格:57元
+編號:2, 價格:45元
+編號:3, 價格:52元
+編號:4, 價格:40元
+編號:5, 價格:47元
+編號:6, 價格:35元
+編號:7, 價格:37元
+編號:8, 價格:25元
+```
+
+
+
+## 2. 靜態方法-粉圓.仙草.西米露.牛奶
+
+
+#### 儲存結構
+``` python
+  |
+  |__<ntub>
+  |     |__ m02.py
+  |
+  |__ p02.py   
+```
+
+
+#### 程式名稱: m02.py (自行完成)
+``` python
+(1) 類別名稱: PearlMilkTea
+(2) 靜態方法名稱: price(isBig, addPearl, addGrass, addSimilo, addMilk)
+    [2-1] 傳入參數: 是否點大杯, 加珍珠, 是否加仙草, 是否加西米露, 是否加牛奶
+    [2-2] 回傳值: 價格
+    [2-3] 說明: 
+          [1] 有個店家賣客製化珍珠奶茶, 客人可以:    
+          [2] 點大杯紅茶 (30元), 點小杯紅茶 (25元);
+          [3] 加粉圓 (加10元), 加仙草 (加8元), 加西米露 (加7元) , 加牛奶 (加9元);
+          [4] 在項目[3]中, 點2樣可扣6元, 點3樣可扣11元, 點4樣可扣17元.
+    
+          例如, 有人點小杯紅茶加粉圓及牛奶, 飲料價錢 = 25元 + 10元 + 9元 – 6元 = 38元.
+```
+
+#### 程式名稱: p02.py (自行完成)
+``` python
+   .
+   .
+   .
+   
+# 待處理銷售資料
+teas = [(True, True, True, True, True), (True, True, True, True, False), (True, True, True, False, False), (True, False, True, False, True), (False, True, False, False, False), (False, True, True, False, True), (False, False, True, False, True), (False, True, False, False, False)]
+
+   .
+   .
+   .   
+```
+
+#### 輸出
+``` python
+編號:1, 價格:47元
+編號:2, 價格:44元
+編號:3, 價格:42元
+編號:4, 價格:41元
+編號:5, 價格:35元
+編號:6, 價格:41元
+編號:7, 價格:36元
+編號:8, 價格:35元
+```
